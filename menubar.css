@@ -10,12 +10,14 @@ body {
     background-size: cover;
     background-position: center;
     height: 10000px;
+    border: #fff;
 
 }
 
 .menu-bar {
     background-color: rgb(128, 252, 5);
     text-align: center;
+    font-size: small;
 
 }
 
