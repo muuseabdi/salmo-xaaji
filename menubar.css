@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(360deg, rgb(7, 7, 7), #fff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10000px;
+
+}
+
+.menu-bar {
+    background-color: rgb(128, 252, 5);
+    text-align: center;
+
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background-color: chocolate;
+    border-radius: 10px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(164, 248, 79);
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 20px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px dotted #fff;
+    background-color: transparent;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    background-color: rgb(177, 151, 7);
+}
+
+
+
+
+.sub-menu-2 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(164, 248, 79);
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul {
+    display: block;
+    margin: 20px;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px dotted #fff;
+    background-color: transparent;
+
+}
+
+.menu-bar ul li:hover .sub-menu-2 li:last-child {
+    border: none;
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+    background-color: rgb(177, 151, 7);
+}
+
+ul li:first-child {
+    background-color: blue;
+}
+
+/* .blur {
+    width: 90px;
+    height: 90px;
+    filter: blur(9px); */
+
+/* } */
+
+.grayscale {
+    width: 90px;
+    height: 90px;
+
+    filter: grayscale(200%);
+}
+
+.sepia {
+    width: 90px;
+    height: 90px;
+    filter: sepia(100%);
+
+}
